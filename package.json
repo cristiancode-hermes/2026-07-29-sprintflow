@@ -1,0 +1,16 @@
+{
+  "name": "sprintflow",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "build:web": "cd apps/web && node ../../node_modules/@angular/cli/bin/ng.js build --configuration production",
+    "build:api": "cd apps/api && ../../node_modules/.bin/tsc -p tsconfig.build.json",
+    "build": "npm run build:api && npm run build:web"
+  },
+  "devDependencies": {
+    "@types/node": "^26.1.2"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.spec.*
+_web_node_modules/
+data/
+*.sqlite
+*.db
+.env
+.env.local
