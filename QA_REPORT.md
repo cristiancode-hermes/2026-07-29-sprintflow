@@ -63,9 +63,9 @@ No unit tests found in the project (standard Daily Builder scaffold). Functional
 
 | Target | Result | Details |
 |--------|--------|---------|
-| Caddy subdomain | PENDING | sprintflow.proyectos.cristiancode.dev |
-| Portfolio entry | PENDING | Adding to locale files |
-| Screenshots | PENDING | Puppeteer capture |
+| Caddy subdomain | ✅ DONE | sprintflow.proyectos.cristiancode.dev — serving frontend + API proxy |
+| Portfolio entry | ✅ DONE | Added to es.ts, en.ts, pt.ts — commit e08251f |
+| Screenshots | ✅ DONE | Restored from git via prod-capture.mjs |
 
 ## Summary
 

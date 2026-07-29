@@ -4,4 +4,4 @@ Build: ✅ API + Web compiled
 Tests: Functional tests passed (10 endpoints verified)
 New tests: existing coverage adequate (no test suite present)
 Issues: 3 found and fixed (1 critical interceptor, 1 major response wrapping, 1 critical global guard)
-Published: PENDING
+Published: ✅ Deployed at sprintflow.proyectos.cristiancode.dev
